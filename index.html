@@ -30,7 +30,57 @@ html{scroll-behavior:smooth;scroll-padding-top:14px}[hidden]{display:none!import
 .chart-note{padding:0 8px 8px;font-size:12px!important}.chart svg{height:150px}
 
 #production-grid{display:block}.production-namespace h3,#vin-history h3{font-size:14px;margin:12px 0}.return-stats strong{overflow-wrap:anywhere}.favorite-modal h2{overflow-wrap:anywhere}.favorite-modal .favorite-actions button{white-space:normal}#vin-history-groups section+section{margin-top:20px}
-</style></head>
+
+
+/* Isolated compact mockup. No production files or data changed. */
+body{line-height:1.3}
+body .metric strong{line-height:1.1}
+body .metric{padding-top:5px;padding-bottom:5px}
+body .table-scroll{max-height:44vh}
+body .bar-row{gap:3px 8px}
+body .returns-panel .return-stats strong{line-height:1.15}
+body #return-buckets{grid-template-columns:repeat(6,1fr);gap:8px;padding-left:0;padding-right:0}
+body .production-note{line-height:1.3}
+body header{padding-top:8px;padding-bottom:8px}
+body main{padding-top:12px;padding-bottom:14px}
+body .heading{margin-bottom:10px}
+body .metric{padding:7px 12px}
+body .metric strong{margin:1px 0}
+body .health{padding-top:5px}
+body .method{padding:6px 0 8px}
+body .production-tracking{margin:8px 0;padding:9px 16px}
+body .production-grid{margin:6px 0;gap:7px}
+body .production-namespace h3{margin:6px 0}
+body .production-grid dd{margin-top:1px}
+body .production-namespace+.production-namespace{margin-top:6px}
+body .history-details{margin:5px 0 10px}
+body .trend-grid{gap:10px;margin-bottom:5px}
+body .panel-heading{padding:9px 12px 5px}
+body .legend{min-height:20px;padding:0 12px}
+body .chart svg{height:120px}
+body .chart{padding-bottom:3px}
+body nav{margin-bottom:7px}
+body .favorite-searches{padding:10px 12px 8px}
+body .favorite-list{margin:6px 0;min-height:18px}
+body .filters{padding:10px 12px;gap:8px}
+body .scope-bar{padding:5px 12px}
+body .breakdown-heading{margin:10px 0 6px}
+body .breakdown-grid{gap:10px;margin-bottom:8px}
+body .bars{padding:0 12px 6px;max-height:180px}
+body .bar-row{padding:4px 0}
+body .results{padding:9px 12px}
+body .pricing-note{padding:0 12px 7px}
+body td{padding:6px 9px}
+body th button{padding:7px 9px}
+body .pagination{padding:7px}
+body .returns-panel{margin-top:10px}
+body .return-stats{gap:10px;padding:4px 12px 9px}
+body .return-bottom{gap:16px;padding:8px 12px}
+body .returns-panel details{padding:7px 12px}
+body footer{margin:9px 0}
+body #vehicle-detail{padding:10px;margin-bottom:10px}
+body .detail-grid{gap:8px 14px;margin:9px 0}
+@media(max-width:650px){body #return-buckets{grid-template-columns:repeat(2,1fr)}body .table-scroll{max-height:58vh}body .chart svg{height:135px}body .favorite-searches button,body .filter-toggle{min-height:44px}body .bars{max-height:180px}body .production-tracking{padding:10px}}</style></head>
 <body><header><div class="brand">EV6 <span>2026 Tracker</span></div><div class="header-links"><a href="#movement">Trends</a><a href="#inventory">Inventory</a><a href="#returns">Reappearances</a><a href="#research">Research</a></div><span class="readonly">Read-only daily snapshot</span></header>
 <main><div class="heading"><div><p class="eyebrow">KIA EV6  ·  MODEL YEAR 2026  ·  NATIONAL INVENTORY</p><h1>Inventory &amp; market movement</h1><p class="muted" id="capture"></p></div><div class="snapshot-note" id="freshness"></div></div>
 <section class="metrics" aria-label="Unfiltered snapshot totals" id="metrics"></section><div class="health"><span>59 / 59 search areas  ·  250-mile radius  ·  Lower 48 grid</span><span>Confirmed retail sales: no independent transaction data</span></div>
